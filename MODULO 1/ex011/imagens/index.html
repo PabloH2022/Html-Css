@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Interativas</title>
+</head>
+<body>
+    <h1>Multiplas Imagens</h1>
+    <p>tente abrir esse site em varios dispotivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="foto-m.png" type="image/png">
+        <img src="foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>vamos começar a reproduzir áudios em HTML5.</p>
+    <audio src="../Midia/Brontosaurus - Topher Mohr and Alex Elena.mp3" controls ></audio>  
+    <H1>Inserindo videos hospedados localmente</H1>
+
+    <video width="560px" poster="../Midia/capavideo.jpeg" controls loop>
+        <source src="../midia/Meuvideo.Mp4.mp4" type="video/mp4">
+        <source src="../Midia/Meuvideo.webM.webm" type="video/webM">
+        <p>Seu naveragdor não é compativél com reprodução de videos.</p>
+
+    </video>
+
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zrIfhUVB_3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2>Outro video agora do vimeo</h2>
+    <iframe src="https://player.vimeo.com/video/122389390?h=58841deb55&color=c9ff23" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gainsboro;
+            margin: 0px;
+        }
+
+        h1 {
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.395);
+            padding: 10px;
+            border-radius: 15px;
+        }
+
+        h2 {
+            background-color: rgb(240, 236, 180);
+            height: 30px;
+            width: 690px;
+            padding-left: 20px;
+            border-radius: 10px;
+
+        }
+        article > h2 {
+            margin: 0px;
+        }
+
+        nav {
+            background-color: rgb(128, 124, 132);
+            color: white;
+            padding: 3px;
+            box-shadow: 1px 1px 3px rgba(1, 1, 1, 0.501);
+            border-radius: 10px;
+            margin: 0px;
+        }
+
+        nav > a {
+
+            text-decoration: none;
+            color: white;
+            margin: 40px;
+        }
+        
+        nav > a:hover {
+            text-decoration: underline;
+            
+        }
+
+        header {
+            background-color: rgb(22, 162, 172);
+            color: white;
+            padding: 10px;
+            margin: auto;
+            text-align: center;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+        footer {
+            background-color: blueviolet;
+            color: white;
+            text-align: center;
+            padding: 4px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+        article > aside {
+            text-align: right;
+            background-color: rgb(180, 180, 172);
+        }
+
+        div#bola1 {
+            text-align: center;
+            height: 25px;
+            width: 100px;
+            padding-top: 5px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(238, 72, 35);
+            margin: 70px;
+            border-radius: 50%;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.251);
+            display: inline-block;
+        }
+
+        div#bola2 {
+            text-align: center;
+            height: 25px;
+            width: 100px;
+            padding-top: 5px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(238, 72, 35);
+            margin: 70px;
+            border-radius: 50%;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.251);
+            display: inline-block;
+        }
+        
+        div#bola3 {
+            text-align: center;
+            height: 25px;
+            width: 100px;
+            padding-top: 5px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(238, 72, 35);
+            margin: 60px;
+            border-radius: 50%;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.251);
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Menu Principal</a>
+            <a href="#">novidades</a>
+            <a href="#">Ajuda</a>
+            
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <a href="#">
+                <div id="bola1"> Politica</div>
+            </a>
+            <a href="#">
+                <div id="bola2">Tecnologia</div>
+            </a>
+            <a href="#">
+                <div id="bola3">Esporte</div>
+            </a>
+            <section id="noticias">
+                <article>
+                    <h2>Noticias sobre o Brasil</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse animi sapiente porro quo laudantium sint neque minima! Totam eligendi suscipit possimus, exercitationem, quisquam consequatur similique, nam tempora illum distinctio vel?</p>
+                 <article>
+                    <aside>
+                        <p>artigo escito por jose da silva</p>
+                    </aside>
+                 </article>   
+                </article>
+
+            </section>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+    
+</body>
+</html>
