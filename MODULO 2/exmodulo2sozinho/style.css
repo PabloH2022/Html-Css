@@ -170,6 +170,7 @@ article img#androidnovo {
     min-width: 350px;
     display: block;
     margin: auto;
+    width: auto;
 }
 
 div.video {
