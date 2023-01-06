@@ -94,6 +94,10 @@ nav > a:hover {
       
 }
 
+img {
+    width: 100%;
+}
+
 
 main > article {
 
@@ -159,6 +163,7 @@ article img#bugdroid {
 article img#irinablock {
     display: block;
     margin: auto;
+    min-width: 350px;
 }
 
 article img#androidnovo {
