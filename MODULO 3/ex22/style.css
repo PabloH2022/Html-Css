@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+
+}
+
+p {
+    font-style: normal ;
+    margin: 100px;
+
+    text-align: left;
+    font-family: 'Sriracha', Cursive;
+    font-size: 0.8em;
+   
+    
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 250px;
+    margin: 50px black;
+    border-radius: 0px 0px 5px 5px;
+    
+    
+    
+}
+header h1 {
+    
+    font-size: 3em;
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+header p {
+    padding-left: 60px;
+    text-align: center;
+    padding-right: 100px;
+    margin: 0px;
+}
+header p a {
+    text-decoration: none;
+    color: white;
+}
+
+header p a:hover {
+    text-decoration: underline;
+}
+
+main {
+    height: 100%;
+    background-color: white;
+    font-size: 2em;
+
+}
+main p {
+    margin-left: 40px;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin-top: 40px;
+
+}
+
+div#image01 {
+    height: 500px;
+    background-image: url(imagens/imagem-girassol01.jpg);
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    margin-top: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.443);
+    border-radius: 5px;
+
+
+}
+
+div > p {
+    position: absolute;
+    height: 350px;
+    width: 320px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.541);
+    padding-top: 45px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+div#image02 {
+    height: 500px;
+    background-image: url(imagens/imagem-a-mao.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+    
+}
+
+footer {
+    background-color: black;
+    padding: 0px
+}
+footer p {
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 3px;
+    box-shadow: 2px 2px rgba(56, 50, 50, 0.377);
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
