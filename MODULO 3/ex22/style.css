@@ -74,9 +74,9 @@ main p {
 
 div#image01 {
     height: 500px;
-    background-image: url(imagens/imagem-girassol01.jpg);
+    background-image: url(imagens/iamgen-girassol-ok.jpg);
     background-size: cover;
-    background-position: right center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
