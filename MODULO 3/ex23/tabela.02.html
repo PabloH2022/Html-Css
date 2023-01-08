@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas grandes</title>
+    <style>
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+            
+        }
+        tr, th, td {
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+        td#num {
+            text-align: right;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: rgb(235, 234, 139);
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1;
+            background-color: gray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th id="scop">Estado</th>
+                <th id="scop" style="width: 100px;">População</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td id="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td id="num">21 168 950</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td id="num">17 890 567</td>
+            </tr>
+            <tr>
+                <td>Piaui</td>
+                <td id="num">1 200 890</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td id="num">0000000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores molestiae voluptatem optio vero. Accusamus, repellendus? Eligendi, exercitationem, quas necessitatibus sequi quod possimus quam ipsa nam libero iusto, consequatur cum nesciunt!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt delectus illum perspiciatis, repellendus accusamus corrupti consequatur error dolor nam quasi. Libero, earum aut. Sit laborum quaerat magni amet ullam aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, fugit commodi magni quae cumque est dolorem unde illum fuga magnam quia amet inventore fugiat? Laborum, voluptatibus! Doloremque ullam labore Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores molestiae voluptatem optio vero. Accusamus, repellendus? Eligendi, exercitationem, quas necessitatibus sequi quod possimus quam ipsa nam libero iusto, consequatur cum nesciunt!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt delectus illum perspiciatis, repellendus accusamus corrupti consequatur error dolor nam quasi. Libero, earum aut. Sit laborum quaerat magni amet ullam aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, fugit commodi magni quae cumque est dolorem unde illum fuga magnam quia amet inventore fugiat? Laborum, voluptatibus! Doloremque ullam laboreLorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores molestiae voluptatem optio vero. Accusamus, repellendus? Eligendi, exercitationem, quas necessitatibus sequi quod possimus quam ipsa nam libero iusto, consequatur cum nesciunt!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt delectus illum perspiciatis, repellendus accusamus corrupti consequatur error dolor nam quasi. Libero, earum aut. Sit laborum quaerat magni amet ullam aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, fugit commodi magni quae cumque est dolorem unde illum fuga magnam quia amet inventore fugiat? Laborum, voluptatibus! Doloremque ullam laboreLorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores molestiae voluptatem optio vero. Accusamus, repellendus? Eligendi, exercitationem, quas necessitatibus sequi quod possimus quam ipsa nam libero iusto, consequatur cum nesciunt!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt delectus illum perspiciatis, repellendus accusamus corrupti consequatur error dolor nam quasi. Libero, earum aut. Sit laborum quaerat magni amet ullam aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, fugit commodi magni quae cumque est dolorem unde illum fuga magnam quia amet inventore fugiat? Laborum, voluptatibus! Doloremque ullam laboreLorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores molestiae voluptatem optio vero. Accusamus, repellendus? Eligendi, exercitationem, quas necessitatibus sequi quod possimus quam ipsa nam libero iusto, consequatur cum nesciunt!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt delectus illum perspiciatis, repellendus accusamus corrupti consequatur error dolor nam quasi. Libero, earum aut. Sit laborum quaerat magni amet ullam aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, fugit commodi magni quae cumque est dolorem unde illum fuga magnam quia amet inventore fugiat? Laborum, voluptatibus! Doloremque ullam labore</p>
+    
+</body>
+</html>
