@@ -45,6 +45,7 @@
             border: 1px solid rgba(0, 0, 0, 0.542);
             width: 300px;
             text-align: center;
+            
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
@@ -85,44 +86,33 @@
         p#entrar {
             text-decoration: none;
         }
+    
+
 
     </style>
 </head>
 <body>
     
     <form action="cadastro.php" method="post" autocomplete="on">
-        <h1>Crie sua conta</h1> 
-        <p> 
-            <label for="nome"></label>
-            <input type="text" name="nome" id="nome" minlength="12" maxlength="30" placeholder="Nome completo" required autocomplete="name">
-        </p>
-        <p>
-            <label for="cpf"> </label>
-            <input type="number" name="cpf" id="cpf" placeholder="CPF" min="11">
-        </p>
+        <h1>entrar</h1> 
+       
+        
         <p>
             <label for="email"> </label >
-            <input type="email" name="email" id="email" size="30" placeholder="Email" autocomplete="email">
+            <input type="email" name="email" id="email" size="30" placeholder="Email" autocomplete="email" required>
         </p>
-        <p>
-            <label for="endereco"> </label>
-            <input type="text" name="endereco" id="endereco" placeholder="Endereço" minlength="8" maxlength="30" autocomplete="postal-code">
-        </p>
-        <p>
-            <label for="tel"> </label>
-            <input type="tel" name="tel" id="tel" placeholder="Telefone com DDD">
-        </p>
+       
         <p>
             <label for="senha"></label>
-            <input type="password" name="senha" id="senha" placeholder="Crie uma Senha" minlength="6" maxlength="20" required>
+            <input type="password" name="senha" id="senha" placeholder="Senha" minlength="6" maxlength="20" required>
         </p>
         <p>
             <input id="reset" type="reset" value="Limpar">
-            <input id="buttom" type="button" value="Criar conta">
+            <input id="buttom" type="button" value="Entrar">
             
         </p>
         <p id="entrar">
-            <a href="textformpag02.html">Fazer Loguin</a>
+            <a href="testeform.html">Criar Conta</a>
         </p>
     </form>
 </body>
