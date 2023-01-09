@@ -70,7 +70,7 @@
             
         }
         
-        input#buttom, input#reset {
+        input#submit, input#reset {
             display: inline-block;
             width: 100px;
             background-color: rgb(59, 3, 244);
@@ -86,39 +86,66 @@
             text-decoration: none;
         }
 
+        fieldset {
+            
+            border: 5px rgb(0, 0, 0);
+            
+        }
+        legend {
+            margin: 0px;
+            text-align: left;
+            padding-left: 50px;
+            color: rgb(255, 255, 255);
+            font-family: 'Bebas Neue';
+            font-size: 1.5em;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.541);
+        }
+
+
     </style>
 </head>
 <body>
     
     <form action="cadastro.php" method="post" autocomplete="on">
         <h1>Crie sua conta</h1> 
-        <p> 
-            <label for="nome"></label>
-            <input type="text" name="nome" id="nome" minlength="12" maxlength="30" placeholder="Nome completo" required autocomplete="name">
-        </p>
-        <p>
-            <label for="cpf"> </label>
-            <input type="number" name="cpf" id="cpf" placeholder="CPF" min="11">
-        </p>
-        <p>
-            <label for="email"> </label >
-            <input type="email" name="email" id="email" size="30" placeholder="Email" autocomplete="email">
-        </p>
-        <p>
-            <label for="endereco"> </label>
-            <input type="text" name="endereco" id="endereco" placeholder="Endereço" minlength="8" maxlength="30" autocomplete="postal-code">
-        </p>
-        <p>
-            <label for="tel"> </label>
-            <input type="tel" name="tel" id="tel" placeholder="Telefone com DDD">
-        </p>
-        <p>
-            <label for="senha"></label>
-            <input type="password" name="senha" id="senha" placeholder="Crie uma Senha" minlength="6" maxlength="20" required>
-        </p>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="nome"></label>
+                <input type="text" name="nome" id="nome" minlength="12" maxlength="30" placeholder="Nome completo" required autocomplete="name">
+            </p>
+            <p>
+                <label for="cpf"> </label>
+                <input type="number" name="cpf" id="cpf" placeholder="CPF" min="11">
+            </p>
+            <p>
+                <label for="email"> </label >
+                <input type="email" name="email" id="email" size="30" placeholder="Email" autocomplete="email">
+            </p>
+            <p>
+                <label for="endereco"> </label>
+                <input type="text" name="endereco" id="endereco" placeholder="Endereço" minlength="8" maxlength="30" autocomplete="postal-code">
+            </p>
+            <p>
+                <label for="tel"> </label>
+                <input type="tel" name="tel" id="tel" placeholder="Telefone com DDD">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Dados de Acesso</legend>
+            <p>
+                <label for="usuario"></label>
+                <input type="text" name="usuario" id="usuario" placeholder="Usuário" >
+            </p>
+            <p>
+                <label for="senha"></label>
+                <input type="password" name="senha" id="senha" placeholder="Crie uma Senha" minlength="6" maxlength="20" required>
+            </p>
+            
+        </fieldset>
         <p>
             <input id="reset" type="reset" value="Limpar">
-            <input id="buttom" type="button" value="Criar conta">
+            <input id="submit" type="button" value="Criar conta">
             
         </p>
         <p id="entrar">
